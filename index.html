@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        var div1=document.createElement("div")
+        div1.style.border= "2px solid black"
+        div1.style.backgroundColor="pink"
+        div1.style.height="400px"
+        div1.style.width="250px"
+        div1.style.padding="50px"
+        div1.style.marginLeft="500px"
+        div1.style.marginRight="300px"
+        div1.style.marginTop="300px"
+        div1.style.backgroundImage= "url('https://images.pexels.com/photos/1939485/pexels-photo-1939485.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')";
+        
+        let head4 = document.createElement("h1");
+        head4.innerText= "10K CODERS"
+        head4.style.fontSize="30px"
+        //  head4.style.padding="1px"
+         head4.style.paddingLeft="40px"
+         head4.style.paddingTop="1px"
+        div1.appendChild(head4)
+        var img1=document.createElement("img")
+        img1.setAttribute("src","https://images.pexels.com/photos/162203/panthera-tigris-altaica-tiger-siberian-amurtiger-162203.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1 ")
+        img1.setAttribute("height","100")
+        img1.setAttribute("width","100")
+        img1.style.paddingTop="20px"
+        img1.style.paddingLeft="60px"
+        // img1.style.borderRadius="100%"
+        
+        div1.appendChild(img1)
+        document.body.appendChild(div1)
+        
+        // let head4 = document.createElement("h1");
+        // head4.innerText= "Supriya Korandla"
+        // head4.style.fontSize="20px"
+        // // head4.style.padding="30px"
+        // // head4.style.paddingLeft="40px"
+        //  head4.style.paddingTop="1px"
+        // div1.appendChild(head4)
+
+        let head = document.createElement("h1");
+        head.innerText= "Supriya Korandla"
+        head.style.fontSize="20px"
+        head.style.padding="30px"
+        head.style.paddingLeft="40px"
+        head.style.paddingTop="10px"
+        div1.appendChild(head)
+
+        let head1=document.createElement("h3");
+        head1.innerText="ID : 123456987"
+        div1.appendChild(head1);
+        let head2=document.createElement("h3");
+        head2.innerText="EMAIL :10kcoder@gmail.com"
+        div1.appendChild(head2);
+        let head3=document.createElement("h3");
+        head3.innerText="PHONE :9874563210"
+        div1.appendChild(head3);
+
+
+
+
+    </script>
+    
+</body>
+</html>
